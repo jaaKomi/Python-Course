@@ -19,4 +19,7 @@ print("\tPython")
 
 print("Languages:\nPython\nC\nJavaScript")
 
-print("Language:\n\tPython\n\tC\n\tJavaScript")
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+favorite_language = 'python '
+
