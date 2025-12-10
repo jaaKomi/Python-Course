@@ -2,12 +2,15 @@ guest = ['Urho Kekkonen', 'Linus Torvalds', 'Ada Lovelace']
 print("Dear " + guest[0] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[1] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[2] + ", you are cordially invited to dinner at my place.")
-len(guest)
+print("Number of guests:", len(guest))
+
 print("\nUnfortunately, " + guest[1] + " cant make it to the dinner.\n")
 guest[1] = 'Jim Hopper'
 print("Dear " + guest[0] + ", you are codrially invited to dinner at my place.")
 print("Dear " + guest[1] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[2] + ", you are cordially invited to dinner at my place.")
+print("Number of guests:", len(guest))
+
 print("\nGood news! I have found a bigger dinner table.\n")
 guest.insert(0, 'Bob Dylan')
 guest.insert(2, 'Jack Russel')
@@ -18,6 +21,8 @@ print("Dear " + guest[2] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[3] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[4] + ", you are cordially invited to dinner at my place.")
 print("Dear " + guest[5] + ", you are cordially invited to dinner at my place.")
+print("Number of guests:", len(guest))
+
 print("\nUnfortunately, the new dinner table wont arrive in time for the dinner, and I can only invite two people.\n")
 popped_guest = guest.pop()
 print("Dear " + popped_guest + ". I am sorry to inform you that i can not invite you to dinner.")
@@ -28,7 +33,10 @@ print("Dear " + popped_guest + ". I am sorry to inform you that i can not invite
 popped_guest = guest.pop()
 print("Dear " + popped_guest + ". I am sorry to inform you that i can not invite you to dinner.")
 print("\nDear " + guest[0] + ", you are still invited to the dinner on my table.")
-print("Dear " + guest[1] + ", you are still invited to the dinner on my table.\n")
+print("Dear " + guest[1] + ", you are still invited to the dinner on my table.")
+print("Number of guests:", len(guest))
+
 del guest[1]
 del guest[0]
 print(guest)
+print("Number of guests:", len(guest))
