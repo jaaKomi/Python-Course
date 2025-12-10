@@ -9,7 +9,5 @@ locations.sort()
 print(locations)  # Permanently sorted in alphabetical order
 locations.sort(reverse=True)
 print(locations)  # Permanently sorted in reverse alphabetical order
-
 print(locations[8])
 # The above line will raise an IndexError because there is no index 8 in the list.
-
